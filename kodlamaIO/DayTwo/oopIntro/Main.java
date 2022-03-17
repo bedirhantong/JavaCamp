@@ -22,6 +22,9 @@ public class Main {
         Category category2 = new Category();
         category2.id = 2;
         category2.name = "Bilgisayar";
+        ProductManager productManager = new ProductManager();
+        productManager.addToCart();
+
 
 
     }
